@@ -11,4 +11,10 @@ public:
 		s1 = Singleton::GetInstance();
 		s1 = Singleton::GetInstance();
 	}
+
+
+	void mtd()
+	{
+
+	}
 };

@@ -81,10 +81,11 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="test.hpp" />
+    <ClInclude Include="ZCriticalSection.hpp" />
     <ClInclude Include="ZList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="democpp.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="ZList.cpp" />
   </ItemGroup>
