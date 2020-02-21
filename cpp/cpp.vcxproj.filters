@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="democpp.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ZList.cpp">
+      <Filter>SList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ZList.h">
+      <Filter>SList</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="test.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SList">
+      <UniqueIdentifier>{22d3dd98-cf06-42e5-8c25-bb4ef6b5c33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{ed4b861a-abb8-4605-9865-e4941c394ad3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
